@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #222;
+    color:#ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px ;
+    background-color: black;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 15%;
+
+}
+nav .action{
+    display: flex;
+    margin: 15px 20px;
+}
+nav .action .sign{
+    background-color: red ;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 120px;
+    height: 60px;
+    margin: o 12px;
+}
+nav .action .sign:hover{
+    background-color:#fff;
+    color: #181818;
+    transition: 0.8ms;
+}
+nav .action .login{
+    background-color: transparent ;
+    padding: 15px 20px;
+    border: 4px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    width: 120px;
+    height: 60px;
+}
+nav .action .login:hover{
+    background-color:#fff;
+    color: #181818;
+    transition: 0.8ms;
+}
+.banner{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0, 0%, 10%, 0.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url("https://image.slidesharecdn.com/puma-13154032166707-phpapp01-110907090127-phpapp01/95/puma-8-728.jpg?cb=1315386431");
+    /* background-image: url("https://filmdaily.co/wp-content/uploads/2020/04/lede-money-heist.jpg"); */
+background-size: cover;
+background-repeat: none;
+background-position: center center;
+max-width: 100%;
+height: 100vh;
+}
+section .pop{
+    display: flex;
+    padding: 2% 0%;
+    
+    
+}
+.poster img{
+    object-fit: contain;
+    max-width: 30%;
+    display: flex;
+}
+.poster{
+    margin: 0% 1%;
+    border-radius: 2%;
+}
+section h1{
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2% 0%;
+    font-size: larger;
+}
+
+.poster h1{
+    
+    font-family: 400;
+    /* text-align: center; */
+    padding: 2% 5%;
+    font-size: medium;
+
+
+}
+
